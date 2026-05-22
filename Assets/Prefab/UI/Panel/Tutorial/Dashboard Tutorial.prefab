@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &269684032360578037
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559894827112481393, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559894827112481393, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090561985577846840, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Dashboard Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[0].desc
+      value: Klik monitor di sebelah kiri untuk membuka halaman materi tentang komponen-komponen
+        komputer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].desc
+      value: Untuk melakukan perakitan secara terbimbing, kamu bisa menekan tombol
+        berwarna hijau. Pada mode ini, kamu akan mendapatkan panduan langkah demi
+        langkah selama proses perakitan berlangsung.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].desc
+      value: Untuk melakukan perakitan secara mandiri, kamu bisa menekan tombol berwarna
+        biru. Pada mode ini, kamu dapat merakit komputer sendiri tanpa panduan secara
+        langsung.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[0].title
+      value: Materi Komponen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].title
+      value: Perakitan Dibimbing
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].title
+      value: Perakitan Mandiri
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3930eaf94d53f8c43b421ea7e8294fda,
+        type: 3}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ddac5639a1e742408a786f857c4fec4,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dd5acebf1019f749845cb0efcdbfa1c, type: 3}

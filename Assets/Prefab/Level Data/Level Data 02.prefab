@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3371342732195336643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5008794945399654047}
+  - component: {fileID: 8408120817776375050}
+  m_Layer: 0
+  m_Name: Level Data 02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5008794945399654047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371342732195336643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.062233, y: -3.6433628, z: 47.86461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8408120817776375050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371342732195336643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e93e06fa68ceec41b6d57308d799e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelTutorialDatas:
+  - tutorialName: Mulai merakit Komputer
+    tutorialReq: Click Case Button
+    tutorialDescription: Klik komponen Case pada panel komponen di sebelah kiri untuk
+      memuculkan case
+  - tutorialName: Memasang Motherboard
+    tutorialReq: Motherboard To Case Terpasang
+    tutorialDescription: Klik komponen Motherboard dan pasangkan ke dalam Casing
+  - tutorialName: Mengencangkan Baut Pengunci Motherboard
+    tutorialReq: Set Baut Motherboard Terpasang
+    tutorialDescription: Kencangkan Baut pada motherboard ke Casing (Perhatikan lingkaran
+      kecil di sekitar Motherboard)
+  - tutorialName: Memasang Power Supply (PSU)
+    tutorialReq: PSU Terpasang
+    tutorialDescription: Klik komponen PSU di panel sebelah kiri, kemudian masukkan
+      ke dalam Casing bagian bawah
+  - tutorialName: Pasang Kabel 24 Pin
+    tutorialReq: 24 Pin Terpasang
+    tutorialDescription: Klik kepala kabel dari kabel 24 pin dan pasangkan ke dalam
+      PSU, kemudian pasangkan bagian lainnya ke dalam socket 24 pin di Motherboard
+      yang sudah ditandai.
+  - tutorialName: Pasang Kabel 8 Pin
+    tutorialReq: 8 Pin Terpasang
+    tutorialDescription: Klik kepala kabel dari kabel 8 pin dan pasangkan ke dalam
+      PSU, kemudian pasangkan bagian lainnya ke dalam socket 8 pin di Motherboard
+      yang sudah ditandai.
+  - tutorialName: Tutup Casing
+    tutorialReq: Case Lid Terpasang
+    tutorialDescription: Klik Tutup Casing PC untuk menyelesaikan perakitan
+  - tutorialName: Menuju Monitor
+    tutorialReq: Look At Monitor
+    tutorialDescription: Udah Selesaii
+  - tutorialName: Selesaikan Booting
+    tutorialReq: Booting Finished
+    tutorialDescription: Woi
+  - tutorialName: Perakitan Selesai
+    tutorialReq: '-'
+    tutorialDescription: Udah Selesaii
+  levelParts:
+  - {fileID: 4018625179322355941, guid: c726e4f3e6e1e8741adfd50516c04255, type: 3}
+  - {fileID: 7721846636814518190, guid: e96e2baec2bce9c4cb9ce1997f5e0e65, type: 3}
+  - {fileID: 7721846636814518190, guid: 19bbd92398682444f85632787a532ba5, type: 3}
+  addLimit: 010000000100000001000000
+  addReq: 000000000000000000000000
+  skipInstance: 0
+  levelUnlocked: Rakit Mandiri
+  tutorialPage: {fileID: 0}

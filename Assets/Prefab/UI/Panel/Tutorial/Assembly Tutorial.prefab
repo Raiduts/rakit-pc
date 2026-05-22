@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &269684032360578037
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2701106745841062537, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090561985577846840, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Assembly Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[0].desc
+      value: Di panel sebelah kiri, kamu bisa memilih komponen-komponen untuk dimunculkan
+        dan dirakit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].desc
+      value: Dalam "Perakitan Dibimbing", kamu perlu memperhatikan panduan langkah-langkah
+        di panel berwarna biru disebelah kanan
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].desc
+      value: Sebelum menggeser komponen yang ingin kamu rakit, kamu harus menekan
+        tombol "Masuk mode rakit" agar komponen yang kamu pilih bisa di geser ke
+        tempat yang kamu inginkan
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[3].desc
+      value: Jika kamu ingin keluar dari mode rakit, kamu bisa menekan tombol berwarna
+        merah yang muncul di bawah, untuk bisa memutar komponen yang kamu rakit
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[0].title
+      value: Memilih Komponen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].title
+      value: Mengikuti Panduan
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].title
+      value: Tombol Mode Rakit
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[3].title
+      value: Keluar dari Mode Rakit
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cf8bb969be66950478304bd3797e4607,
+        type: 3}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4cc7c8bfcee9c924eb1c9f8f73e3ae4d,
+        type: 3}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4ef24fb6ba39bf240acf04afd083b3ee,
+        type: 3}
+    - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
+        type: 3}
+      propertyPath: tutorialsData.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 68e9ef5353ab7fa4da320058d2be88ba,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dd5acebf1019f749845cb0efcdbfa1c, type: 3}

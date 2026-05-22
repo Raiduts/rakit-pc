@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6771444912873782131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459155906132042175}
+  - component: {fileID: 4351390809756874303}
+  - component: {fileID: 8731143753657863800}
+  m_Layer: 0
+  m_Name: SSD NVMe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459155906132042175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771444912873782131}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.19635698, y: 0.19635703, z: 0.19635703}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 3628656826112798270}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &4351390809756874303
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771444912873782131}
+  m_Mesh: {fileID: 7184911246344102654, guid: f34b2f8befca8654993c03f8050f66f0, type: 3}
+--- !u!23 &8731143753657863800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771444912873782131}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -1297869518082289475, guid: f34b2f8befca8654993c03f8050f66f0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &6028880615805027496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5151167579337538810, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: partName
+      value: SSD
+      objectReference: {fileID: 0}
+    - target: {fileID: -5151167579337538810, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: multiplyer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5151167579337538810, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: description
+      value: 'SSD (Solid State Drive) adalah media penyimpanan modern yang menggunakan
+        chip memori tanpa komponen mekanik. SSD memiliki kecepatan baca dan tulis
+        data jauh lebih cepat dibanding HDD.
+
+
+        Pada perakitan nanti digunakan
+        Samsung 990 PRO 1TB karena motherboard ASUS Prime X570-P sudah mendukung
+        slot M.2 NVMe. SSD ini dipilih agar komputer memiliki performa cepat saat
+        booting, membuka aplikasi, dan memindahkan data.
+
+
+        Kelebihan SSD:
+
+
+        -
+        Kecepatan sangat tinggi
+
+        - Tidak menghasilkan suara
+
+        - Lebih
+        tahan terhadap benturan
+
+        - Konsumsi daya lebih rendah
+
+
+        SSD
+        NVMe dipasang langsung pada slot M.2 motherboard sehingga tidak memerlukan
+        kabel data SATA.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622944005415623060, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091796854236776019, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 3632657852083458395, guid: 8ec857f43565cc344b58849840938e53,
+        type: 3}
+    - target: {fileID: 4645879716670539602, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Name
+      value: SSD
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645879716670539602, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645879716670539602, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_TagString
+      value: SSD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572152031644746631, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -1297869518082289475, guid: 8ec857f43565cc344b58849840938e53,
+        type: 3}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676659345488713052, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7057552736026618518, guid: 6927b257f3117f4418ec9c00f966a436,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 459155906132042175}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6927b257f3117f4418ec9c00f966a436, type: 3}
+--- !u!4 &3628656826112798270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7057552736026618518, guid: 6927b257f3117f4418ec9c00f966a436,
+    type: 3}
+  m_PrefabInstance: {fileID: 6028880615805027496}
+  m_PrefabAsset: {fileID: 0}

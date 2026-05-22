@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3371342732195336643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5008794945399654047}
+  - component: {fileID: 8408120817776375050}
+  m_Layer: 0
+  m_Name: Level Data 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5008794945399654047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371342732195336643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.062233, y: -3.6433628, z: 47.86461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7207667147588871442}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8408120817776375050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371342732195336643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e93e06fa68ceec41b6d57308d799e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelTutorialDatas:
+  - tutorialName: Memulai Perakitan Motherboard
+    tutorialReq: Click Motherboard Button
+    tutorialDescription: 'Klik komponen Motherboard pada daftar komponen di panel
+      sebelah kiri
+
+'
+  - tutorialName: Membuka Pengunci CPU
+    tutorialReq: CPU Terbuka
+    tutorialDescription: 'Klik pengunci CPU pada motherboard hingga pengunci terbuka.
+
+      Pastikan
+      pengunci sudah terbuka sebelum memasang CPU.'
+  - tutorialName: Memasang CPU
+    tutorialReq: CPU Terpasang
+    tutorialDescription: Klik komponen CPU di list komponen sebelah kiri, lalu tarik
+      CPU ke socket CPU pada motherboard.
+  - tutorialName: Membuka Pengunci RAM
+    tutorialReq: RAM Terbuka
+    tutorialDescription: Klik pengunci pada slot RAM bagian atas dan bawah hingga
+      slot terbuka dan siap digunakan.
+  - tutorialName: Memasang RAM
+    tutorialReq: 2 RAM Terpasang
+    tutorialDescription: 'Klik komponen RAM pada list komponen di panel kiri, lalu
+      tarik RAM ke slot RAM pada motherboard.
+
+
+      (Kamu bisa menambah sampai
+      4 RAM)'
+  - tutorialName: Memasang SSD
+    tutorialReq: SSD Terpasang
+    tutorialDescription: Klik komponen SSD di list komponen di panel kiri, lalu tarik
+      SSD ke slot SSD yang tersedia pada motherboard
+  - tutorialName: Mengencangkan Baut Pengunci SSD
+    tutorialReq: Set Baut SSD Terpasang
+    tutorialDescription: Setelah SSD berhasil dipasang pada slot yang tersedia, kencangkan
+      baut pengunci SSD agar SSD terpasang dengan stabil dan tidak mudah terlepas
+      dari motherboard.
+  - tutorialName: Mengoleskan Thermal Paste
+    tutorialReq: Thermal Paste Terpasang
+    tutorialDescription: Klik komponen Thermal Paste di panel sebelah kiri, kemudian
+      Klik CPU untuk mengoleskan paste ke seluruh bagian inti CPU tertutupi dengan
+      baik.
+  - tutorialName: Memasang CPU Cooler
+    tutorialReq: FAN CPU Terpasang
+    tutorialDescription: Klik komponen CPU Cooler di Panel sebelah kiri, lalu tarik
+      dan pasang di atas CPU. Setelah itu, sambungkan kabel cooler ke socket fan
+      pada motherboard.
+  - tutorialName: Mengencangkan Baut CPU Cooler
+    tutorialReq: Set Baut FAN CPU Terpasang
+    tutorialDescription: Putar baut pengunci CPU Cooler hingga terpasang dengan kuat
+      pada motherboard.
+  - tutorialName: Menghubungkan Kabel CPU Cooler
+    tutorialReq: FAN Port Terpasang
+    tutorialDescription: Sambungkan kabel CPU Cooler ke socket fan pada motherboard
+      agar sistem pendingin dapat berfungsi dengan baik.
+  - tutorialName: Perakitan Selesai
+    tutorialReq: All_Components Terpasang Socket
+    tutorialDescription: Semua komponen utama pada motherboard telah berhasil dipasang.
+      SIlahkan klik tombol lanjutkan sekarang atau lanjutkan nanti
+  levelParts:
+  - {fileID: 7721846636814518190, guid: 0aabc701b8d1cda43b8cabae5caa7ab1, type: 3}
+  - {fileID: 7721846636814518190, guid: fcf437ade7578cc409090d6f9cd3a460, type: 3}
+  - {fileID: 7721846636814518190, guid: b36b2ca9e47714949b3a00ca3f0bfa07, type: 3}
+  - {fileID: 7721846636814518190, guid: 591cd4e583b0d5e41bfb39d13bc9184f, type: 3}
+  - {fileID: 7721846636814518190, guid: e5656c7bb3ab7864c881322845f62a76, type: 3}
+  addLimit: 0100000001000000040000000100000001000000
+  addReq: 0100000001000000020000000100000001000000
+  skipInstance: 0
+  levelUnlocked: Rakit Casing
+  tutorialPage: {fileID: 9109715872497791583, guid: ea52a52a87116284ab6775c1d97e48c5,
+    type: 3}
+--- !u!1 &5021257138353515299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7207667147588871442}
+  - component: {fileID: 787483655325629435}
+  - component: {fileID: 355890211423200507}
+  - component: {fileID: 1819580782116884516}
+  m_Layer: 0
+  m_Name: Tutorial Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7207667147588871442
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021257138353515299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5008794945399654047}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &787483655325629435
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021257138353515299}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!114 &355890211423200507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021257138353515299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &1819580782116884516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021257138353515299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

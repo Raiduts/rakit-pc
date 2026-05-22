@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.meta text
+*.cs text diff=csharp
+
+*.png binary
+*.jpg binary
+*.fbx binary
+*.anim binary
+*.controller binary
+*.prefab text
+*.unity text
