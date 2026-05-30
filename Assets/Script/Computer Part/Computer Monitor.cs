@@ -2,17 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ComputerMonitor : MonoBehaviour
 {
+    public static ComputerMonitor Instance;
+
     [SerializeField] private Transform cameraView;
-    private Collider monitorCollider;
+    public Collider monitorCollider;
     [SerializeField] private GraphicRaycaster canvasRaycaster;
     [SerializeField] private Button changeViewButton;
     [SerializeField] private BootingScreen bootingScreen;
 
     private CinemachineController controller;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -56,6 +64,4 @@ public class ComputerMonitor : MonoBehaviour
     {
         LookAtMonitor();
     }
-
-
 }

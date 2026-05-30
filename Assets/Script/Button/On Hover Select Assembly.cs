@@ -20,15 +20,21 @@ public class OnHoverSelectAssembly : MonoBehaviour, IPointerEnterHandler, IPoint
         startH = backgroundRect.rect.height;
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    private void OnEnable()
     {
         backgroundRect.DOSizeDelta(new Vector2(endW, endH), 0.25f);
         backgroundImage.DOFade(0.9f, 0.25f);
     }
 
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        //backgroundRect.DOSizeDelta(new Vector2(endW, endH), 0.25f);
+        //backgroundImage.DOFade(0.9f, 0.25f);
+    }
+
     public void OnPointerExit(PointerEventData eventData)
     {
-        backgroundRect.DOSizeDelta(new Vector2(startW, startH), 0.25f);
-        backgroundImage.DOFade(1, 0.25f);
+        //backgroundRect.DOSizeDelta(new Vector2(startW, startH), 0.25f);
+        //backgroundImage.DOFade(1, 0.25f);
     }
 }

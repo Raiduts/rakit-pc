@@ -26,6 +26,7 @@ public class InstantiateOnHover : MonoBehaviour, IPointerEnterHandler, IPointerE
         {
             refObject.SetActive(false);
         }
+
         //Destroy(newObject.gameObject);
     }
 }

@@ -63,7 +63,7 @@ public class ObjectRotator : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (!RotationViewerArea.IsHovering)
+            if (!RotationViewerArea.IsHovering || CameraZoom.IsZooming)
                 return;
 
             isDragging = true;

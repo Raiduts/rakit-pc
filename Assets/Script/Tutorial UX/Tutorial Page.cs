@@ -30,6 +30,11 @@ public class TutorialPage : MonoBehaviour
 
     private void ShowTutorial()
     {
+        if (ComputerMonitor.Instance)
+        {
+            ComputerMonitor.Instance.monitorCollider.enabled = false;
+        }
+
         Sequence seq = DOTween.Sequence();
 
         seq.Append(backgroundImage.DOFade(0, 0.5f).From());
@@ -38,6 +43,11 @@ public class TutorialPage : MonoBehaviour
 
     public void HideTutorial()
     {
+        if (ComputerMonitor.Instance)
+        {
+            ComputerMonitor.Instance.monitorCollider.enabled = true;
+        }
+
         Sequence seq = DOTween.Sequence();
 
         seq.Append(tutorialPanel.DOScale(0, 0.5f).SetEase(Ease.InBack));

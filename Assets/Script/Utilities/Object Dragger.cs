@@ -63,7 +63,7 @@ public class ObjectDragger : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        if (!isDraggable) return;
+        if (!isDraggable || CameraZoom.IsZooming) return;
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
