@@ -73,15 +73,15 @@ MonoBehaviour:
   - tutorialName: Tutup Casing
     tutorialReq: Case Lid Terpasang
     tutorialDescription: Klik Tutup Casing PC untuk menyelesaikan perakitan
-  - tutorialName: Menuju Monitor
+  - tutorialName: Nyalakan Komputer
     tutorialReq: Look At Monitor
-    tutorialDescription: Udah Selesaii
+    tutorialDescription: Tekan tombol "Lanjut" untuk menyalakan komputer
   - tutorialName: Selesaikan Booting
     tutorialReq: Booting Finished
-    tutorialDescription: Woi
+    tutorialDescription: Tunggu sampai proses booting selesai
   - tutorialName: Perakitan Selesai
     tutorialReq: '-'
-    tutorialDescription: Udah Selesaii
+    tutorialDescription: Komputer berhasil dinyalakan
   levelParts:
   - {fileID: 4018625179322355941, guid: c726e4f3e6e1e8741adfd50516c04255, type: 3}
   - {fileID: 7721846636814518190, guid: e96e2baec2bce9c4cb9ce1997f5e0e65, type: 3}

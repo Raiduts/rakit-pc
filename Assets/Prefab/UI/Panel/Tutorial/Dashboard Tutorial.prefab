@@ -131,7 +131,8 @@ PrefabInstance:
       propertyPath: tutorialsData.Array.data[2].desc
       value: Untuk melakukan perakitan secara mandiri, kamu bisa menekan tombol berwarna
         biru. Pada mode ini, kamu dapat merakit komputer sendiri tanpa panduan secara
-        langsung.
+        langsung. Namun untuk membuka mode ini, kamu harus menyelesaikan mode perakitan
+        terbimbing terlebih dahulu
       objectReference: {fileID: 0}
     - target: {fileID: 9066355595120314794, guid: 6dd5acebf1019f749845cb0efcdbfa1c,
         type: 3}
