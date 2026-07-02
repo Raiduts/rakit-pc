@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,6 +23,10 @@ public class OnClickAnimation : MonoBehaviour
         {
             case OnClickAnimationType.Bounce:
                 // Bounce
+                transform.DOScale(1.1f, 0.25f).SetEase(Ease.OutBack).OnComplete(() =>
+                {
+                    transform.DOScale(1f, 0.25f).SetEase(Ease.InBack);
+                });
                 break;
         }
     }

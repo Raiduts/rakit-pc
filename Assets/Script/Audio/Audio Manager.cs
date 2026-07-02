@@ -1,15 +1,21 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
+    private bool isMuted;
+
     //public float musicVolume, sfxVolume;
+    [Header("Icon")]
+    public Image speakerImage;
+    public Sprite mute, unmute;
 
     [Header("Audio Sources")]
-    //public AudioMixer audioMixer;
+    public AudioMixer audioMixer;
     public AudioSource sfxSource;
     public AudioSource musicSource;
 
@@ -60,6 +66,33 @@ public class AudioManager : MonoBehaviour
 
     //    PlayerPrefs.SetFloat("sfx", volume);
     //}
+
+    public void OnSpeakerIconClick()
+    {
+        if (!isMuted)
+        {
+            Mute();
+        }
+        else
+        {
+            Unmute();
+        }
+    }
+    
+    private void Mute()
+    {
+        isMuted = true;
+        audioMixer.SetFloat("MasterVolume", -80f);
+
+        speakerImage.sprite = mute;
+    }
+
+    private void Unmute()
+    {
+        isMuted = false;
+        audioMixer.SetFloat("MasterVolume", 0);
+        speakerImage.sprite = unmute;
+    }
 
     public void PlayBGM(AudioClip clip, float duration)
     {
